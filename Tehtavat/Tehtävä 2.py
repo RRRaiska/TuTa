@@ -43,4 +43,9 @@ leiviska = float(input("Leiviskät: "))
 naula = float(input("Naulat: "))
 luoti = float(input("Luodit: "))
 
-summa = (leiviska * )
+luoti = 13.3
+naula = 32 * luoti
+leiviska = 20 * naula
+
+summa2 = (leiviska + naula + luoti) / 1000
+print(f"Antamasi massat nykymittojen mukaan on {summa2}. kg")
