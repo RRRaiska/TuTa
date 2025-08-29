@@ -50,7 +50,7 @@ leiviska = 20 * naula
 summa2 = (leiviska + naula + luoti) / 1000
 kilot = summa2
 grammat = summa2 % 1000
-print(f"Antamasi massat nykymittojen mukaan on {int(summa2)} kiloa ja {float(grammat)} grammaa. \n")
+print(f"Antamasi massat nykymittojen mukaan on {summa2:.2f} kilogrammaa, joka on {int(summa2)} kiloa ja {float(grammat)} grammaa.\n")
 #En osannut tehdä muotoilua tähän. Etsin netistäkin, mutten onnistunut.
 
 print("Tehtävä 2.6")
