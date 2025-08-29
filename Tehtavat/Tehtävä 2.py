@@ -51,7 +51,7 @@ summa2 = (leiviska + naula + luoti) / 1000
 kilot = summa2
 grammat = summa2 % 1000
 print(f"Antamasi massat nykymittojen mukaan on {int(summa2)} kiloa ja {float(grammat)} grammaa. \n")
-#En osannut tehdä muotoilua tähän.
+#En osannut tehdä muotoilua tähän. Etsin netistäkin, mutten onnistunut.
 
 print("Tehtävä 2.6")
 from random import randint
