@@ -57,5 +57,5 @@ print("Tehtävä 2.6")
 from random import randint
 
 print("Kolmenumeroinen koodi:", randint(0, 9), randint(0, 9), randint(0, 9)),"."
-print("Nelinumeroinen koodi:", randint(1, 6), randint(0, 9), randint(0, 9), randint(0, 9)),"."
+print("Nelinumeroinen koodi:", randint(1, 6), randint(1, 6), randint(1, 6), randint(1, 6)),"."
 
