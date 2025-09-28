@@ -2,3 +2,9 @@
 # Kone arvuuttelee lukua pelaajalta siihen asti, kunnes tämä arvaa oikein.
 # Kunkin arvauksen jälkeen ohjelma tulostaa tekstin Liian suuri arvaus, Liian pieni arvaus tai Oikein.
 # Huomaa, että tietokone ei saa vaihtaa lukuaan arvauskertojen välissä.
+
+
+
+print("Liian suuri arvaus.")
+print("Liian pieni arvaus.")
+print("Oikein!")

@@ -1,14 +1,15 @@
-# Pyydetään käyttäjältä hyttiluokkaa
-hyttiluokka = input("Syötä hyttiluokka (LUX, A, B, C): ")
 
-# Tarkistetaan syöte ja tulostetaan kuvaus
-if hyttiluokka == "LUX":
-    print("LUX: Ylimmän kerroksen sviitti parvekkeella.")
-elif hyttiluokka == "A":
-    print("A: Hytissä on parveke.")
-elif hyttiluokka == "B":
-    print("B: Hytissä ei ole ikkunaa.")
-elif hyttiluokka == "C":
-    print("C: Sisähytti ilman ikkunaa.")
-else:
-    print("Tuntematon hyttiluokka. Valitse LUX, A, B tai C.")
+# luku = range(1, 1000)
+# while luku % 3 == 0:
+#   print(luku)
+
+# räpellystä
+# luku1 = 1
+# luku2 = 1000
+# luku = range(1, 1000)
+# while luku1 >= 1 and luku1 % 3 == 0:
+#    luku2 = 1000
+#    while luku2 <= 1000 and luku2 % 3 == 0:
+#    print(luku)
+
+
