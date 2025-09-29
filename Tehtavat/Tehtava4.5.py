@@ -11,13 +11,10 @@ toistot = 0
 while toistot < 5:
     toistot += 1
     while kayttajatunnus != "python":
-        print(f"Pääsy evätty.")
-        kayttajatunnus = input("Anna käyttäjätunnus: ")
-
         while salasana != "rules":
-           print(f"Pääsy evätty.")
-           salasana = input("Anna salasana: ")
-else:
-    print("Tervetuloa!")
+            print(f"Pääsy evätty.")
+            kayttajatunnus = input("Anna käyttäjätunnus: ")
+            salasana = input("Anna salasana: ")
+print("Tervetuloa!")
 
 # en osannut tehdä 5 kerran looppia.
