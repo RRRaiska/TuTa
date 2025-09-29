@@ -16,3 +16,4 @@ while (luku <=1 or luku >=10):
 # Mistähän johtuu että import random ei toimi. se menee harmaaksi ja sanoo että unused import statement 'import random'.
 # se kuitenkin toimii tuolla mun luento 4 tehtävissä.
 
+
