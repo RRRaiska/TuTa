@@ -6,10 +6,15 @@
 
 kayttajatunnus = input("Anna käyttäjätunnus: ")
 salasana = input("Anna salasana: ")
+toistot = 0
 
-while salasana != "Python123!":
-    print(f"Pääsy evätty.")
-    salasana = input("Anna salasana: ")
+while toistot <5:
 
+    if kayttajatunnus != "python":
+        if salasana != "rules":
+           print(f"Pääsy evätty.")
+           kayttajatunnus = input("Anna käyttäjätunnus: ")
+           salasana = input("Anna salasana: ")
+    toistot += 1
 else:
     print("Tervetuloa!")
