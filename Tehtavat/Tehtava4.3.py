@@ -5,6 +5,7 @@ lukuja = input("Anna luku: ")
 while lukuja != " ":
     print(lukuja)
     lukuja = input("Anna luku: ")
+
 print("Toiminto lopetettu.")
 
 # en osannut tehdä tuota saatujen lukujen pienintä ja suurinta.
