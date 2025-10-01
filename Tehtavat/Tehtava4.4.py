@@ -20,4 +20,4 @@ print(f"Arvoin luvun {arpa}. Arvasit oikein!")
 
 # en saanut tätä toimimaan. Enkä ymmärrä miksi. Olen kuitenkin ylpeä, että pääsin tähän asti.
 # Oli ihan älytömän vaikeita tehtäviä. Tuntuu ettei ohjeissa ole riittävästi tietoa,
-# eikä myöskään ole riittävästi aikaa selvittää.
+# eikä googlaaminen yksinään auta.
