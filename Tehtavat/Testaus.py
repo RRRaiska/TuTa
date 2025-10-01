@@ -13,6 +13,9 @@
 #    print(luku)
 
 
-
+# Mikäli haluaa lisäharjoituksia kysy tekoälyltä
+# Tehtävistä on suoritettava 40 %
+# Tekoälyn käyttö näkyy koodissa
+# 3.12. on tentti, tentistä on 2 uusintaa. Ensimmäiseen on osallistuttava, jotta voi osallistua uusintaan.
 
 print(f"Arvoin luvun {arpa}. Arvasit oikein!")

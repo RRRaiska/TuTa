@@ -12,3 +12,4 @@ while tuumamaara >= 1:
         print("Annoit negatiivisen luvun. Anna positiivinen luku.")
 
 
+# Olis pitänyt käyttää floatia, että olis voinut antaa puolikkaitakin numeroita.
