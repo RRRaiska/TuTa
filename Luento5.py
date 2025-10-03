@@ -53,7 +53,7 @@ print(maara)
 for koira in nimet: #koira sana voi olla mitä vaan!
     print("Tervehdys," ,koira)
 print("For looppi loppui.")
-# koiraksi ensin tallentuu viivi, sit palataan for loopin alkuun ja sitlloin koiraksi tallentuu Ahmed. jne.
+# koiraksi ensin tallentuu viivi, sit palataan for loopin alkuun ja silloin koiraksi tallentuu Ahmed. jne.
 # jos lista on tyhjä niin silloin tulee lopun printti For looppi loppui.
 # KATSO ITSE RANGE FUNKTIO. TEE MYÖS HARJOITUKSET NIIN OPIT. TEE NÄÄ EKA.
 
