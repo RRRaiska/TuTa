@@ -3,3 +3,7 @@
 # Lopuksi ohjelma tulostaa saaduista luvuista viisi suurinta suuruusjärjestyksessä suurimmasta alkaen.
 # Vihje: listan alkioiden lajittelujärjestyksen voi kääntää
 # antamalla sort-metodille argumentiksi reverse=True.
+
+lukuja = int(input("Anna luku? Kun haluat lopettaa lukujen antamisen paina Enter. "))
+lista = []
+while lukuja != "":

@@ -4,12 +4,10 @@
 
 import random
 
-kuutiot = int(input("Montaako noppaa haluat minun heittävän?"))
+nopat = int(input("Montaako noppaa haluat minun heittävän? "))
+
+luvut = random.randint (1,6)
 luvut = []
+luvut.append(nopat)
 
-
-random.randint (1,6)
-for
-luvut.append()
-
-
+print(f"Nopien silmälukujen summa on {nopat} * {luvut}")
