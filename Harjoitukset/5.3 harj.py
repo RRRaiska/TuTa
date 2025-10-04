@@ -16,3 +16,16 @@
     # Lista järjestyksessä: [1, 3, 5, 9]
     # Uusi arvo: 0
     # Hei hei!
+
+lista = []
+
+arvo = int(input("Anna arvo: "))
+while arvo != 0:
+    lista.append(arvo)
+    print("Lista nyt:", lista)
+    lista.sort()
+    print(lista)
+    arvo = int(input("Anna uusi arvo: "))
+if arvo == 0:
+    print("Hei hei!")
+
