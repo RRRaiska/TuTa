@@ -3,16 +3,16 @@
 # Käytä for-toistorakennetta.
 import random
 
-nopat = int(input("Montako noppaa? "))
+nopat = input("Montako noppaa? ")
 silmaluvut = []
 noppienHeitot = 0
 
 #for noppienHeitot < nopat:
-random.randint(1,6) * nopat
-noppienHeitot += 1
-silmaluvut.append(noppienHeitot)
-print(noppienHeitot)
-print(silmaluvut)
+for nopat in random.randint(1,6):
+    noppienHeitot += 1
+    silmaluvut.append(noppienHeitot)
+    print(noppienHeitot)
+    print(silmaluvut)
 
 
 
