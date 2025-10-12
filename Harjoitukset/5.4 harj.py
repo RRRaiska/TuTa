@@ -3,6 +3,8 @@
 
 lista = ["kukka", "sana", "sammakko", "kirjakauppa", "oranssi", "sokea"]
 
-while len(lista) >5:
+len(lista[0])
+
+while len(lista)>5:
     print(lista)
     break
