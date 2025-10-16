@@ -3,6 +3,7 @@
 # Lopuksi ohjelma tulostaa saaduista luvuista viisi suurinta suuruusjärjestyksessä suurimmasta alkaen.
 # Vihje: listan alkioiden lajittelujärjestyksen voi kääntää
 # antamalla sort-metodille argumentiksi reverse=True.
+import random
 
 lista =[]
 
@@ -15,3 +16,12 @@ while lukuja != "":
 
 lista.sort(reverse=True)
 print(lista[0:5])
+
+#maara = int(input("Anna kuutioiden määrä: "))
+#summa = 0
+#for i in range(maara):
+#    print(maara)
+#    heitto = random.randint(1,6)
+#    print("Heitto:", heitto)
+#    summa += heitto
+#    print("Summa ", summa)

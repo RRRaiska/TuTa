@@ -1,38 +1,17 @@
 # Kirjoita ohjelma, joka kysyy käyttäjältä arpakuutioiden lukumäärän.
 # Ohjelma heittää kerran kaikkia arpakuutioita ja tulostaa silmälukujen summan.
 # Käytä for-toistorakennetta.
+
 import random
 
-nopat = input("Montako noppaa? ")
-silmaluvut = []
-noppienHeitot = 0
+lista =[]
 
-#for noppienHeitot < nopat:
-for nopat in random.randint(1,6):
-    noppienHeitot += 1
-    silmaluvut.append(noppienHeitot)
-    print(noppienHeitot)
-    print(silmaluvut)
+lukuja = input("Anna luku? \nKun haluat lopettaa lukujen antamisen paina Enter. ")
 
+while lukuja != "":
+    lukuja = int(lukuja)
+    lista.append(int(lukuja))
+    lukuja = input("Anna luku? Kun haluat lopettaa lukujen antamisen paina Enter. ")
 
-
-
-#random.randint(1,6)
-
-#silmaluvut.append(noppienHeitot)
-
-#print(silmaluvut)
-
-# nopat = kysymys
-# noppien heitot = nopat * random.randint
-# for noppien heitot in silmäluvut
-
-# Kysymys montako noppaa
-# silmäluvut = tyhjä lista
-# noppia pitää heittää noppien määrän verran
-# noppien luvut pitää lisätä listaan noppien määrän verran
-# lisää nopat silmäluvut
-# laske silmäluvut yhteen
-# print silmäluvut summa
-
-# Niin kauan kun nopat on !=
+lista.sort(reverse=True)
+print(lista[0:5])
