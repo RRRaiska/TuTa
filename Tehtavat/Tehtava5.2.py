@@ -11,7 +11,7 @@ lukuja = input("Anna luku? \nKun haluat lopettaa lukujen antamisen paina Enter. 
 
 while lukuja != "":
     lukuja = int(lukuja)
-    lista.append(int(lukuja))
+    lista.append(lukuja)
     lukuja = input("Anna luku? Kun haluat lopettaa lukujen antamisen paina Enter. ")
 
 lista.sort(reverse=True)
