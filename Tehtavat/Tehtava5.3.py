@@ -4,10 +4,24 @@
     # että jako menee tasan.
     # Toisaalta esimerkiksi luku 21 ei ole alkuluku, koska se voidaan jakaa tasan myös luvulla 3 tai luvulla 7.
 
-kokoinaisluku = int(input("Anna kokonaisluku: "))
+kokonaisluku = int(input("Anna kokonaisluku: "))
 
-if kokoinaisluku % kokoinaisluku != 0 and kokoinaisluku % 1 == 0:
-    print(f"{kokoinaisluku} ei ole alkuluku.")
-
+if kokonaisluku < 2:
+    print(f"{kokonaisluku} ei ole alkuluku.")
 else:
-    print(f"{kokoinaisluku} on alkuluku.")
+    for i in range(2, kokonaisluku):
+        if kokonaisluku % i == 0:
+            print(f" {kokonaisluku} ei ole alkuluku.")
+            break
+    else:
+        print(f" {kokonaisluku} on alkuluku.")
+
+# En onnistunut tässä ilman tekoälyä.
+# Oma räpellykseni oli tällainen
+#
+#kokonaisluku = int(input("Anna kokonaisluku: "))
+
+#if kokonaisluku <= 2 = kokonaisluku % kokonaisluku == 0 and kokonaisluku % 1 == 0:
+  #  print(f"{kokonaisluku} on alkuluku.")
+#else:
+ #   print(f"{kokonaisluku} ei ole alkuluku.")
