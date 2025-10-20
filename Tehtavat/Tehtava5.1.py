@@ -4,14 +4,11 @@
 
 import random
 
-lista =[]
-
-lukuja = input("Anna luku? \nKun haluat lopettaa lukujen antamisen paina Enter. ")
-
-while lukuja != "":
-    lukuja = int(lukuja)
-    lista.append(int(lukuja))
-    lukuja = input("Anna luku? Kun haluat lopettaa lukujen antamisen paina Enter. ")
-
-lista.sort(reverse=True)
-print(lista[0:5])
+nopat = int(input("Anna kuutioiden määrä: "))
+summa = 0
+for i in range(nopat):
+    print(nopat)
+    heitto = random.randint(1,6)
+    print("Heitto:", heitto)
+    summa += heitto
+    print("Summa ", summa)

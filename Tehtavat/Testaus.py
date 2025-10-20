@@ -3,25 +3,26 @@
 # Lopuksi ohjelma tulostaa saaduista luvuista viisi suurinta suuruusjärjestyksessä suurimmasta alkaen.
 # Vihje: listan alkioiden lajittelujärjestyksen voi kääntää
 # antamalla sort-metodille argumentiksi reverse=True.
+
 import random
 
-lista =[]
+#nopat = input("Montako noppaa? ")
+#silmaluvut = []
+#noppienHeitot = 0
 
-lukuja = input("Anna luku? \nKun haluat lopettaa lukujen antamisen paina Enter. ")
+#for noppienHeitot < nopat:
+#for nopat in random.randint(1,6):
+ #   noppienHeitot += 1
+  #  silmaluvut.append(noppienHeitot)
+   # print(noppienHeitot)
+    #print(silmaluvut)
 
-while lukuja != "":
-    lukuja = int(lukuja)
-    lista.append(int(lukuja))
-    lukuja = input("Anna luku? Kun haluat lopettaa lukujen antamisen paina Enter. ")
 
-lista.sort(reverse=True)
-print(lista[0:5])
-
-#maara = int(input("Anna kuutioiden määrä: "))
-#summa = 0
-#for i in range(maara):
-#    print(maara)
-#    heitto = random.randint(1,6)
-#    print("Heitto:", heitto)
-#    summa += heitto
-#    print("Summa ", summa)
+nopat = int(input("Anna kuutioiden määrä: "))
+summa = 0
+for i in range(nopat):
+    print(nopat)
+    heitto = random.randint(1,6)
+    print("Heitto:", heitto)
+    summa += heitto
+    print("Summa ", summa)

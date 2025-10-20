@@ -10,7 +10,8 @@ kaupungit = []
 for x in range(0,5):
     kaupunki = input("Kaupungin nimi? ")
     kaupungit.append(kaupunki)
-    print(kaupungit)
+    # testaus, että toimiihan listalle laitto
+    # print(kaupungit)
 
 for item in kaupungit:
     print(item)
