@@ -24,7 +24,7 @@ luku3 = int(input("Anna luku: "))
 summa = yhteenlasku(luku1, luku2, luku3)
 print("lukujen summa on ", summa)
 
-# YRITÄ PÄIVITTÄÄ LASKIN KÄYTTÄEN FUNKTIOITA ENS KERTAA VARTEN, TEE KOTITEHTÄVÄT (PAKOLLISIA), HARJOITTELE EKSTRA-TEHTÄVIÄ
+# YRITÄ PÄIVITTÄÄ LASKIN KÄYTTÄEN FUNKTIOITA ENS KERTAA VARTEN, TEE KOTITEHTÄVÄT (PAKOLLISIA), HARJOITTELE EKSTRA-TEHTÄVIÄ. viimeinen kotitehtävä ei ole pakollinen.
 
 
 
