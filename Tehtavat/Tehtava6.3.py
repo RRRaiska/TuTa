@@ -15,5 +15,5 @@ gallonat = float(input("Anna gallonoiden määrä? "))
 while gallonat >= 0:
     print(bensan_maara(gallonat))
     print(float(input("Anna gallonoiden määrä? ")))
-if gallonat < 0:
-    print("Kiitos käynnistä.")
+    if gallonat < 0:
+        print("Kiitos käynnistä.")
