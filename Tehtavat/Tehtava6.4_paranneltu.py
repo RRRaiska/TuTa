@@ -6,16 +6,15 @@
 def kokonaisluvut_yhteen(lista):
     return sum(lista)
 
-lista =[]
-luku = int(input("Anna kokonaisluku: "))
-if luku != 0:
-    lista.append(luku)
+lista = []
+luku = int(input("Anna kokonaisluku (0 lopettaa): "))
 
 while luku != 0:
-    luku = int(input("Anna kokonaisluku: "))
-    if luku != 0:
-        lista.append(luku)
+    lista.append(luku)
+    luku = int(input("Anna kokonaisluku (0 lopettaa): "))
 
-kokonaisluvut_yhteen(lista)
-print(lista)
-print("Lukujen summa on",sum(lista),".")
+# Hyödynnetään funktion paluuarvoa
+summa = kokonaisluvut_yhteen(lista)
+
+print("\nSyötetyt luvut:", lista)
+print("Lukujen summa on", summa, ".")
