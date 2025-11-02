@@ -5,15 +5,16 @@
 # kunnes käyttäjä syöttää negatiivisen gallonamäärän.
 # Yksi gallona on 3,785 litraa.
 
-def bensan_maara(gallonat):
-    summa = gallonat * gallona
-    return summa
+def bensan_maara(pyydetyt_gallonat):
+    litrat = pyydetyt_gallonat * gallona
+    return litrat
 
 gallona = 3.785
-gallonat = float(input("Anna gallonoiden määrä? "))
+pyydetyt_gallonat = float(input("Anna gallonoiden määrä? "))
 
-while gallonat >= 0:
-    print(bensan_maara(gallonat))
-    print(float(input("Anna gallonoiden määrä? ")))
-    if gallonat < 0:
-        print("Kiitos käynnistä.")
+while pyydetyt_gallonat >= 0:
+    print(bensan_maara(pyydetyt_gallonat))
+    pyydetyt_gallonat = float(input("Anna gallonoiden määrä? "))
+
+if pyydetyt_gallonat < 0:
+    print("Kiitos käynnistä.")
