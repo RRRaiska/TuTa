@@ -4,3 +4,9 @@
 # Kirjoita testausta varten pääohjelma, jossa luot listan, kutsut funktiota
 # ja tulostat sen jälkeen sekä alkuperäisen että karsitun listan.
 
+def kokonaisluvut(kaikkiluvut):
+    return sum(lista)
+    return
+
+lista = []
+
