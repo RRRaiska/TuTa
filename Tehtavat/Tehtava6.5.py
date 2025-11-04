@@ -5,8 +5,22 @@
 # ja tulostat sen jälkeen sekä alkuperäisen että karsitun listan.
 
 def kokonaisluvut(kaikkiluvut):
-    return sum(lista)
-    return
+    return lista
 
 lista = []
+
+
+# pääohjelma
+numero = int(input("Anna numero? "))
+
+while numero != "":
+        lista.append(numero)
+        numero = int(input("Anna numero? "))
+
+if numero % 2 == 0:
+    print(lista)
+
+else:
+    kokonaisluvut(kaikkiluvut)
+    lista.sort()
 
