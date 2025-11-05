@@ -19,3 +19,13 @@ while nopat != tahkot:
     print(nopat)
 
 print("Tulostus päättyy kuutoseen.")
+
+#Oikea vastaus:
+#def noppa(suurin):
+    #return
+#suurin = int(input("Kuinka suurta noppaa haluat heittää? "))
+#silmaluku = 0
+
+#while silmaluku != suurin:
+    #silmaluku =noppa(suurin)
+    #print("Heiton tulos:", silmaluku)

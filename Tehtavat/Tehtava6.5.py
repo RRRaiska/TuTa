@@ -27,3 +27,17 @@ else:
     kaikkiluvut.sort()
 
 # Tässä yritykseni. Ei toiminut tämäkään. en ymmärrä yhtään mitään.
+
+#def parilliset(l):
+#   uusi_lista = []
+#   for l in l:
+    #if luku % 2 == 0:
+    #   uusi_lista.append(luku)
+    #return uusi_lista
+
+#pääohjelma
+# luvut = [5,12,3,44,8,17,0]
+#luvut2 = parilliset(luvut)
+
+#print("Alkuperäinen lista:", luvut)
+#print("Parillinen lista:", luvut2)
