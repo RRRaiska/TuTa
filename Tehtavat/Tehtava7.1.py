@@ -20,5 +20,6 @@ if kuukaudenNumero == 5 or kuukaudenNumero == 6 or kuukaudenNumero == 7:
 if kuukaudenNumero == 8 or kuukaudenNumero == 9 or kuukaudenNumero == 10:
     print("Vuodenaika on syksy.")
 
+#ei toimi. ajatus ei kulje.
 
 
