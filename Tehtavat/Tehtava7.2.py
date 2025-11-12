@@ -6,10 +6,16 @@
 # mielivaltaisessa järjestyksessä. Käytä joukkotietorakennetta nimien
 # tallentamiseen.
 
-nimet = set(input("Anna nimi? (Tyhjä lopettaa syöttämisen.) "))
+nimet = set()
+nimi = input("Anna nimi? (Tyhjä lopettaa syöttämisen.) ")
 
-while nimet != "":
-    nimet = input("Anna nimi? (Tyhjä lopettaa syöttämisen.) ")
-    nimet.add
-    print(nimet)
+while nimi != "":
+    nimet.add(nimi)
+    nimi = input("Anna nimi? (Tyhjä lopettaa syöttämisen.) ")
+    if nimi in nimet != nimi:
+        print("Uusi nimi.")
+else:
+    print("Aiemmin syötetty nimi.")
+
+print(nimet)
 
