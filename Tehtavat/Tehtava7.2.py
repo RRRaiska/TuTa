@@ -8,16 +8,18 @@
 
 nimet = set()
 nimi = input("Anna nimi? (Tyhjä lopettaa syöttämisen.) ")
+nimet.add(nimi)
+#listan testaus
+print(nimet)
 
 while nimi != "":
     nimet.add(nimi)
-    nimi = input("Anna nimi? (Tyhjä lopettaa syöttämisen.) ")
     if nimi in nimet != nimi:
         print("Uusi nimi.")
-else:
-    print("Aiemmin syötetty nimi.")
-
-
+    nimi = input("Anna nimi? (Tyhjä lopettaa syöttämisen.) ")
+    if nimi in nimet:
+        print("Aiemmin syötetty nimi.")
 
 print(nimet)
-
+# Melkein toimii. JOstain syystä printtaa molemmat uusi ja aiemmin syötetty,
+# kun koittaa jo olemassa olevaa nimeä.
