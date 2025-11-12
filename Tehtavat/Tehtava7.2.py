@@ -5,3 +5,11 @@
 # Lopuksi ohjelma luettelee syötetyt nimet yksi kerrallaan allekkain
 # mielivaltaisessa järjestyksessä. Käytä joukkotietorakennetta nimien
 # tallentamiseen.
+
+nimet = set(input("Anna nimi? (Tyhjä lopettaa syöttämisen.) "))
+
+while nimet != "":
+    nimet = input("Anna nimi? (Tyhjä lopettaa syöttämisen.) ")
+    nimet.add
+    print(nimet)
+
