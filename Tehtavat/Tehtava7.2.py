@@ -10,7 +10,7 @@ nimet = set()
 nimi = input("Anna nimi? (Tyhjä lopettaa syöttämisen.) ")
 nimet.add(nimi)
 #listan testaus
-print(nimet)
+# print(nimet)
 
 while nimi != "":
     nimet.add(nimi)
@@ -21,5 +21,5 @@ while nimi != "":
         print("Aiemmin syötetty nimi.")
 
 print(nimet)
-# Melkein toimii. JOstain syystä printtaa molemmat uusi ja aiemmin syötetty,
+# Melkein toimii. Jostain syystä printtaa molemmat uusi ja aiemmin syötetty,
 # kun koittaa jo olemassa olevaa nimeä.
